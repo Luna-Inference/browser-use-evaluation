@@ -20,7 +20,7 @@ async def main():
     # Capture and display the result
     result = await agent.run(max_steps=15)
     
-    print("Gemma 3 4B Agent Result:")
+    print("Qwen3 1.7B Agent Result:")
     print("=" * 50)
     print(result)
     
